@@ -2209,7 +2209,7 @@ contains
        use mpas_pool_routines, only : mpas_pool_get_config, mpas_pool_get_dimension, mpas_pool_get_array, &
                                       mpas_pool_get_subpool, mpas_pool_shift_time_levels
        use mpas_timekeeping, only : mpas_advance_clock, mpas_get_clock_time, mpas_get_time, MPAS_NOW, &
-                                    operator(.lt.), operator(+)
+                                    operator(.lt.), operator(+), add_t_ti, lt_t_t
        use mpas_timer, only : mpas_timer_start, mpas_timer_stop
        use mpas_constants, only : Rv_over_Rd => rvord
 
